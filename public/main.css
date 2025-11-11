@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+    line-height: 1.5rem;
+}
+
+#header {
+    font-family: Verdana, sans-serif;
+    width: 100%;
+    background-color: darkslategray;
+    color: gainsboro;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 5px 0 slategray;
+}
+
+#header a {
+    color: gainsboro;
+    text-decoration: none;
+}
+
+#logo {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+}
+
+nav *:hover,
+.router-link-active {
+    color: gray;
+    font-weight: bold;
+}
+
+.app-container {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.container {
+    text-align: center;
+    font-family: Georgia, serif;
+    margin-top: 25px;
+}
+
+button {
+    background-color: darkslategray;
+    color: gainsboro;
+    font-family: Verdana, sans-serif;
+}
+
+button:not(#back-btn) {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#back-btn {
+    padding: 5px;
+}
+
+h2,
+p,
+blockquote {
+    margin: 25px auto;
+    max-width: 50ch;
+    text-wrap: balance;
+}
+
+blockquote,
+#loading {
+    margin: 75px auto;
+}
+
+.quote {
+    margin-bottom: 12px;
+}
+
+.author {
+    font-style: italic;
+    color: #555;
+    margin-top: 0;
+}
