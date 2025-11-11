@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkm11_2"]=self["webpackChunkm11_2"]||[]).push([[594],{1845:function(e,n,t){t.r(n),t.d(n,{default:function(){return c}});var u=t(6768);const a={class:"container"};function r(e,n){return(0,u.uX)(),(0,u.CE)("div",a,[...n[0]||(n[0]=[(0,u.Lk)("h1",null,"About",-1),(0,u.Lk)("p",null,"This site is a random quote generator using Vue.js and Quotable API. It was made for WEB 125 Responsive Web Frameworks at Wake Tech Community College.",-1)])])}var s=t(1241);const o={},i=(0,s.A)(o,[["render",r]]);var c=i}}]);
+//# sourceMappingURL=about.dc66a06c.js.map
